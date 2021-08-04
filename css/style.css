@@ -10865,6 +10865,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.85);
   border-radius: 10px;
+  transition: all 1s ease;
 }
 .contenedor__cortos .cortos__caja1:hover {
   transform: scale(1.1);
@@ -10906,6 +10907,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.85);
   border-radius: 10px;
+  transition: all 1s ease;
 }
 .contenedor__cortos .cortos__caja2:hover {
   transform: scale(1.1);
@@ -10947,6 +10949,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.85);
   border-radius: 10px;
+  transition: all 1s ease;
 }
 .contenedor__cortos .cortos__caja3:hover {
   transform: scale(1.1);
@@ -11004,6 +11007,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.85);
   border-radius: 10px;
+  transition: all 1s ease;
 }
 .largos .contenedor__largos .largos__item1:hover {
   transform: scale(1.1);
@@ -11048,6 +11052,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.85);
   border-radius: 10px;
+  transition: all 1s ease;
 }
 .largos .contenedor__largos .largos__item2:hover {
   transform: scale(1.1);
@@ -11092,6 +11097,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.85);
   border-radius: 10px;
+  transition: all 1s ease;
 }
 .largos .contenedor__largos .largos__item3:hover {
   transform: scale(1.1);
