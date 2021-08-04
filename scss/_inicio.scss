@@ -2,12 +2,12 @@
 
 .inicio {
   @include flex(flex, column, center, center, no-wrap);
-  height: 80vh;
+  min-height: 80vh;
 }
 .inicio__parrafo {
   @include titulo(1em, center, 800, #000);
   text-shadow: #fff 0.5px 0.5px;
-  margin-top: 3vh;
+  margin-top: 2.5vh;
 }
 .inicio__imagen {
   min-width: 30vw;

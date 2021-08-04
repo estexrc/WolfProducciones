@@ -12301,7 +12301,7 @@ body, .contenedor__item3, .contenedor__item2, .contenedor__item1,
   justify-content: center;
   align-items: center;
   flex-wrap: no-wrap;
-  height: 80vh;
+  min-height: 80vh;
 }
 
 .inicio__parrafo {
@@ -12310,7 +12310,7 @@ body, .contenedor__item3, .contenedor__item2, .contenedor__item1,
   font-weight: 800;
   color: #000;
   text-shadow: #fff 0.5px 0.5px;
-  margin-top: 3vh;
+  margin-top: 2.5vh;
 }
 
 .inicio__imagen {
