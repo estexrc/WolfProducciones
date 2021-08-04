@@ -10836,38 +10836,10 @@ textarea.form-control-lg {
   transform: scale(1.1);
 }
 
-.botones-inferiores {
-  height: 33vh;
-}
-
-.contenedor__botones-inferiores {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-top: 10vh;
-}
-.contenedor__botones-inferiores .botones-inferiores__item {
-  margin: 10px;
-}
-.contenedor__botones-inferiores .botones-inferiores__item button {
-  border: none;
-  border-radius: 50px;
-  background-color: var(--bg-button);
-  color: var(--white-color);
-  font-weight: 600;
-  font-size: 1rem;
-  width: 80px;
-  height: 80px;
-}
-.contenedor__botones-inferiores .botones-inferiores__item button a {
-  text-decoration: none;
-  font-size: 2rem;
-  color: var(--white-color);
-}
-
 /* ---- PÁGINA GALERÍA - CORTOMETRAJES ---- */
+.cortos {
+  margin-top: 16vh;
+}
 .cortos h2, .cortos .h2 {
   font-size: 2.5rem;
   text-align: center;
@@ -11303,10 +11275,6 @@ textarea.form-control-lg {
     display: initial;
   }
 
-  .botones-inferiores {
-    display: none;
-  }
-
   .cortos {
     padding-bottom: 10vh;
   }
@@ -11383,10 +11351,6 @@ textarea.form-control-lg {
     display: initial;
   }
 
-  .botones-inferiores {
-    display: none;
-  }
-
   .cortos {
     padding-bottom: 5vh;
   }
@@ -11460,10 +11424,6 @@ textarea.form-control-lg {
     display: initial;
   }
 
-  .botones-inferiores {
-    display: none;
-  }
-
   .cortos,
 .largos {
     padding-bottom: 5vh;
@@ -11527,10 +11487,6 @@ textarea.form-control-lg {
   .carousel-control-next-icon,
 .carousel-control-prev-icon {
     display: initial;
-  }
-
-  .botones-inferiores {
-    display: none;
   }
 
   .cortos,

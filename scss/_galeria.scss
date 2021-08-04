@@ -43,37 +43,11 @@
   }
   display: none;
 }
-.botones-inferiores {
-  height: 33vh;
-}
-.contenedor__botones-inferiores {
-  @include flex(flex, row, center, center, wrap);
-  padding-top: 10vh;
-  .botones-inferiores__item {
-    margin: 10px;
-    button {
-      @include boton(
-        none,
-        50px,
-        var(--bg-button),
-        var(--white-color),
-        600,
-        1rem
-      );
-      width: 80px;
-      height: 80px;
-      a {
-        text-decoration: none;
-        font-size: 2rem;
-        color: var(--white-color);
-      }
-    }
-  }
-}
 
 /* ---- PÁGINA GALERÍA - CORTOMETRAJES ---- */
 
 .cortos {
+  margin-top: 16vh;
   h2 {
     @include titulo(2.5rem, center, 700, var(--white-color));
   }
@@ -246,9 +220,6 @@
       display: initial;
     }
   }
-  .botones-inferiores {
-    display: none;
-  }
   .cortos {
     padding-bottom: 10vh;
     .cortos__contenido {
@@ -317,9 +288,6 @@
       display: initial;
     }
   }
-  .botones-inferiores {
-    display: none;
-  }
   .cortos {
     padding-bottom: 5vh;
     .cortos__contenido {
@@ -384,9 +352,6 @@
   .carousel-control-prev-icon {
     display: initial;
   }
-  .botones-inferiores {
-    display: none;
-  }
   .cortos,
   .largos {
     padding-bottom: 5vh;
@@ -441,9 +406,6 @@
   .carousel-control-next-icon,
   .carousel-control-prev-icon {
     display: initial;
-  }
-  .botones-inferiores {
-    display: none;
   }
   .cortos,
   .largos {
