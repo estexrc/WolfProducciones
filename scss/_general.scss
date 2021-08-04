@@ -40,9 +40,7 @@ body,
 }
 .contenedor-boton-carusel__anchor {
   text-decoration: none;
-  color: var(
-    --white-color
-  ) !important; /*important utilizado por fuerza mayor ya que no me permite pisar estilo de BS*/
+  color: var(--white-color);
 }
 .navbar__botones__whatsapp {
   border: none;
