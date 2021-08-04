@@ -1,0 +1,55 @@
+html {
+  font-size: 62, 5%;
+}
+header {
+  width: 100%;
+  z-index: 1;
+}
+:root {
+  --white-color: #fff;
+  --bg-button: #2c8cb5;
+  --bg-gray: rgba(109, 109, 116, 0.6);
+  --bg-body: #7f7f7f;
+}
+body,
+.contacto__formulario,
+.contacto__informacion {
+  font-family: lato, sans-serif;
+  @include fondo(cover, center center, no-repeat);
+}
+@for $i from 1 through 3 {
+  .contenedor__item#{$i} {
+    @extend body;
+  }
+}
+.body__index {
+  background-image: url(../imagenes/inicio.jpg);
+  background-attachment: fixed;
+}
+.body__servicios {
+  background-image: url(../imagenes/servicios.jpg);
+  min-height: 100vh;
+}
+.body__galeria {
+  background-color: var(--bg-body);
+}
+.body__nosotros {
+  background-color: var(--bg-body);
+  font-size: 22px;
+  position: relative;
+}
+.contenedor-boton-carusel__anchor {
+  text-decoration: none;
+  color: var(--white-color);
+}
+.navbar__botones__whatsapp {
+  border: none;
+  border-radius: 50px;
+  padding: 7px 15px;
+  font-family: lato, sans-serif;
+  background-color: rgb(0, 187, 45);
+  &:hover {
+    background: rgb(0, 187, 45);
+    transform: scale(1.1);
+  }
+}

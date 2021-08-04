@@ -12239,7 +12239,6 @@ body, .contenedor__item3, .contenedor__item2, .contenedor__item1,
 .body__index {
   background-image: url(../imagenes/inicio.jpg);
   background-attachment: fixed;
-  overflow: hidden;
 }
 
 .body__servicios {
