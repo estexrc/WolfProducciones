@@ -1,3 +1,5 @@
+/* ---- FOOTER ---- */
+
 footer {
   height: 13vh;
   background-color: var(--bg-gray);
@@ -14,6 +16,9 @@ footer {
     @include titulo(1rem, center, 600, auto);
   }
 }
+
+/* ---- FOOTER - MEDIA QUERYS ---- */
+
 @media screen and (min-width: 768px) and (max-width: 869px) {
   .footer__redes-img {
     width: 2.7rem;

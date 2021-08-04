@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* ---- MIXINS GENERALES DEL PROYECTO ---- */
 /* ---- NAVBAR ---- */
 nav {
   background-image: linear-gradient(90deg, #353333, #858282);
@@ -23,7 +24,8 @@ nav {
   font-family: montserrat, sans-serif;
 }
 
-/* ---- navbar ---- */
+/* ---- PÁGINA VARIABLES BOOTSTRAP ADAPTADAS ---- */
+/* ---- NAVBAR ---- */
 /* ---- CAROUSEL ---- */
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
@@ -10777,6 +10779,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/* ---- PÁGINA GALERÍA ---- */
+/* ---- PÁGINA CONTACTO - CARRUSEL ---- */
 .carousel {
   min-height: 60vh;
 }
@@ -10866,6 +10870,7 @@ textarea.form-control-lg {
   color: var(--white-color);
 }
 
+/* ---- PÁGINA GALERÍA - CORTOMETRAJES ---- */
 .cortos h2, .cortos .h2 {
   font-size: 2.5rem;
   text-align: center;
@@ -11005,6 +11010,7 @@ textarea.form-control-lg {
   background-color: rgba(73, 68, 68, 0.8);
 }
 
+/* ---- PÁGINA GALERÍA - LARGOMETRAJES ---- */
 .largos h2, .largos .h2 {
   font-size: 2.5rem;
   text-align: center;
@@ -11152,6 +11158,7 @@ textarea.form-control-lg {
   background-color: rgba(73, 68, 68, 0.8);
 }
 
+/* ---- PÁGINA GALERÍA - FOTOGRAFÍAS ---- */
 .fotos h2, .fotos .h2 {
   font-size: 2.5rem;
   text-align: center;
@@ -11239,6 +11246,7 @@ textarea.form-control-lg {
   margin-bottom: 5vh;
 }
 
+/* ---- PÁGINA GALERÍA - MEDIA QUERYS ---- */
 @media screen and (min-width: 397px) and (max-width: 768px) {
   .carousel-indicators {
     display: none;
@@ -11562,6 +11570,7 @@ textarea.form-control-lg {
     grid-column: span 3;
   }
 }
+/* ---- PÁGINA SERVICIOS ---- */
 .servicios {
   min-height: 90vh;
   width: 100%;
@@ -11600,6 +11609,7 @@ textarea.form-control-lg {
   margin: 30px 10px;
 }
 
+/* ---- PÁGINA SERVICIOS - MEDIA QUERYS ---- */
 @media screen and (min-width: 767px) and (max-width: 869px) {
   .servicios {
     min-height: 80vh;
@@ -11677,6 +11687,7 @@ textarea.form-control-lg {
     font-size: 2.1rem;
   }
 }
+/* ---- PÁGINA NOSOTROS - DROPDOWN ---- */
 .contenedor-nosotros {
   padding-top: 3vh;
   margin-bottom: 30px;
@@ -11828,6 +11839,7 @@ textarea.form-control-lg {
   color: var(--white-color);
 }
 
+/* ---- PÁGINA NOSOTROS - MEDIA QUERYS ---- */
 @media screen and (min-width: 397px) and (max-width: 768px) {
   .contenedor-nosotros {
     padding-top: 4vh;
@@ -11933,64 +11945,8 @@ textarea.form-control-lg {
     font-size: 1.7rem;
   }
 }
-.contacto__informacion {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(../imagenes/contacto2.jpg);
-  min-height: 100vh;
-  width: 100%;
-  padding: 5vh 5vw;
-}
-.contacto__informacion .container__info {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.contacto__informacion .contacto__redes-sociales {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: no-wrap;
-  width: 80vw;
-  height: 65vh;
-  border-radius: 20px 20px 0px 0px;
-  background-color: var(--bg-gray);
-  padding: 1.5rem auto;
-}
-.contacto__informacion .contacto__redes-sociales .informacion__dato {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: no-wrap;
-}
-.contacto__informacion .contacto__redes-sociales .informacion__logo {
-  width: 40px;
-  padding: 3px;
-}
-.contacto__informacion .contacto__redes-sociales h3, .contacto__informacion .contacto__redes-sociales .h3 {
-  font-size: 24px;
-  font-weight: 600;
-  padding-top: 10px;
-  text-align: center;
-}
-.contacto__informacion .contacto__mapa {
-  width: 80vw;
-  height: 65vh;
-}
-.contacto__informacion .contacto__mapa .mapita {
-  border-radius: 0px 0px 20px 20px;
-  height: 100%;
-  width: 100%;
-}
-
+/* ---- PÁGINA CONTACTO ---- */
+/* ---- PÁGINA CONTACTO - FORMULARIO CONTACTO ---- */
 .contacto__formulario {
   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(../imagenes/contacto1.jpg);
   width: 100%;
@@ -12079,6 +12035,66 @@ textarea {
   transform: scale(1.1);
 }
 
+/* ---- PÁGINA CONTACTO - CUADRO REDES Y MAPA ---- */
+.contacto__informacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(../imagenes/contacto2.jpg);
+  min-height: 100vh;
+  width: 100%;
+  padding: 5vh 5vw;
+}
+.contacto__informacion .container__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.contacto__informacion .contacto__redes-sociales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: no-wrap;
+  width: 80vw;
+  height: 65vh;
+  border-radius: 20px 20px 0px 0px;
+  background-color: var(--bg-gray);
+  padding: 1.5rem auto;
+}
+.contacto__informacion .contacto__redes-sociales .informacion__dato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: no-wrap;
+}
+.contacto__informacion .contacto__redes-sociales .informacion__logo {
+  width: 40px;
+  padding: 3px;
+}
+.contacto__informacion .contacto__redes-sociales h3, .contacto__informacion .contacto__redes-sociales .h3 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 10px;
+  text-align: center;
+}
+.contacto__informacion .contacto__mapa {
+  width: 80vw;
+  height: 65vh;
+}
+.contacto__informacion .contacto__mapa .mapita {
+  border-radius: 0px 0px 20px 20px;
+  height: 100%;
+  width: 100%;
+}
+
+/* ---- PÁGINA CONTACTO - MEDIA QUERYS ---- */
 @media screen and (min-width: 769px) and (max-width: 1000px) {
   .contacto__formulario {
     padding: 6vh 0;
@@ -12211,6 +12227,7 @@ textarea {
     border-radius: 0px 20px 20px 0px;
   }
 }
+/* ---- ESTILOS GENERALES DEL SITIO ---- */
 html {
   font-size: 62, 5%;
 }
@@ -12218,13 +12235,6 @@ html {
 header {
   width: 100%;
   z-index: 1;
-}
-
-:root {
-  --white-color: #fff;
-  --bg-button: #2c8cb5;
-  --bg-gray: rgba(109, 109, 116, 0.6);
-  --bg-body: #7f7f7f;
 }
 
 body, .contenedor__item3, .contenedor__item2, .contenedor__item1,
@@ -12236,6 +12246,7 @@ body, .contenedor__item3, .contenedor__item2, .contenedor__item1,
   background-repeat: no-repeat;
 }
 
+/* ---- ESTILOS DE BODY POR PÁGINA ---- */
 .body__index {
   background-image: url(../imagenes/inicio.jpg);
   background-attachment: fixed;
@@ -12256,6 +12267,15 @@ body, .contenedor__item3, .contenedor__item2, .contenedor__item1,
   position: relative;
 }
 
+/* ---- VARIABLES PROPIAS ---- */
+:root {
+  --white-color: #fff;
+  --bg-button: #2c8cb5;
+  --bg-gray: rgba(109, 109, 116, 0.6);
+  --bg-body: #7f7f7f;
+}
+
+/* ---- BOTONES GENERALES ---- */
 .contenedor-boton-carusel__anchor {
   text-decoration: none;
   color: var(--white-color) !important;
@@ -12274,6 +12294,7 @@ body, .contenedor__item3, .contenedor__item2, .contenedor__item1,
   transform: scale(1.1);
 }
 
+/* ---- PÁGINA INICIO ---- */
 .inicio {
   display: flex;
   flex-direction: column;
@@ -12297,6 +12318,7 @@ body, .contenedor__item3, .contenedor__item2, .contenedor__item1,
   max-height: 58vh;
 }
 
+/* ---- PÁGINA INICIO - MEDIA QUERYS ---- */
 @media screen and (min-width: 398px) and (max-width: 768px) {
   .inicio__parrafo {
     font-size: 1.3em;
@@ -12317,6 +12339,7 @@ body, .contenedor__item3, .contenedor__item2, .contenedor__item1,
     font-size: 2.5em;
   }
 }
+/* ---- PÁGINA 404 ---- */
 .bodyError {
   background-image: url(../imagenes/404-back.jpg);
   background-size: cover;
@@ -12366,6 +12389,7 @@ body, .contenedor__item3, .contenedor__item2, .contenedor__item1,
   font-size: 1.3rem;
 }
 
+/* ---- PÁGINA 404 - MEDIA QUERYS ---- */
 @media screen and (min-width: 550px) and (max-width: 999px) {
   .bodyError {
     font-size: 30px;
@@ -12397,6 +12421,7 @@ body, .contenedor__item3, .contenedor__item2, .contenedor__item1,
     width: 30%;
   }
 }
+/* ---- FOOTER ---- */
 footer {
   height: 13vh;
   background-color: var(--bg-gray);
@@ -12423,6 +12448,7 @@ footer {
   color: auto;
 }
 
+/* ---- FOOTER - MEDIA QUERYS ---- */
 @media screen and (min-width: 768px) and (max-width: 869px) {
   .footer__redes-img {
     width: 2.7rem;

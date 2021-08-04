@@ -1,3 +1,7 @@
+/* ---- PÁGINA GALERÍA ---- */
+
+/* ---- PÁGINA CONTACTO - CARRUSEL ---- */
+
 .carousel {
   min-height: 60vh;
 }
@@ -66,6 +70,9 @@
     }
   }
 }
+
+/* ---- PÁGINA GALERÍA - CORTOMETRAJES ---- */
+
 .cortos {
   h2 {
     @include titulo(2.5rem, center, 700, var(--white-color));
@@ -106,6 +113,9 @@
     }
   }
 }
+
+/* ---- PÁGINA GALERÍA - LARGOMETRAJES ---- */
+
 .largos {
   h2 {
     @include titulo(2.5rem, center, 700, var(--white-color));
@@ -149,6 +159,9 @@
     }
   }
 }
+
+/* ---- PÁGINA GALERÍA - FOTOGRAFÍAS ---- */
+
 .fotos {
   h2 {
     @include titulo(2.5rem, center, 700, var(--white-color));
@@ -173,6 +186,9 @@
   padding: 10px;
   margin-bottom: 5vh;
 }
+
+/* ---- PÁGINA GALERÍA - MEDIA QUERYS ---- */
+
 @media screen and (min-width: 397px) and (max-width: 768px) {
   .carousel-indicators {
     display: none;
@@ -202,7 +218,6 @@
     grid-auto-rows: 40vh;
   }
 }
-
 @media screen and (min-width: 769px) and (max-width: 869px) {
   .carousel,
   .contenedor__item1,

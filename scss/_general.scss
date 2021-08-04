@@ -1,15 +1,11 @@
+/* ---- ESTILOS GENERALES DEL SITIO ---- */
+
 html {
   font-size: 62, 5%;
 }
 header {
   width: 100%;
   z-index: 1;
-}
-:root {
-  --white-color: #fff;
-  --bg-button: #2c8cb5;
-  --bg-gray: rgba(109, 109, 116, 0.6);
-  --bg-body: #7f7f7f;
 }
 body,
 .contacto__formulario,
@@ -22,6 +18,9 @@ body,
     @extend body;
   }
 }
+
+/* ---- ESTILOS DE BODY POR PÁGINA ---- */
+
 .body__index {
   background-image: url(../imagenes/inicio.jpg);
   background-attachment: fixed;
@@ -39,13 +38,23 @@ body,
   position: relative;
 }
 
+/* ---- VARIABLES PROPIAS ---- */
+
+:root {
+  --white-color: #fff;
+  --bg-button: #2c8cb5;
+  --bg-gray: rgba(109, 109, 116, 0.6);
+  --bg-body: #7f7f7f;
+}
+
+/* ---- BOTONES GENERALES ---- */
+
 .contenedor-boton-carusel__anchor {
   text-decoration: none;
   color: var(
     --white-color
   ) !important; /* Se utiliza important ya que dicho estilo no se aplica aún probando la anidación */
 }
-
 .navbar__botones__whatsapp {
   border: none;
   border-radius: 50px;

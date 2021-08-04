@@ -1,3 +1,5 @@
+/* ---- MIXINS GENERALES DEL PROYECTO ---- */
+
 @mixin titulo($font-size, $text-align, $font-weight, $color) {
   font-size: $font-size;
   text-align: $text-align;

@@ -1,3 +1,5 @@
+/* ---- PÁGINA 404 ---- */
+
 .bodyError {
   background-image: url(../imagenes/404-back.jpg);
   @include fondo(cover, center center, no-repeat);
@@ -30,6 +32,9 @@
   color: #fff;
   font-size: 1.3rem;
 }
+
+/* ---- PÁGINA 404 - MEDIA QUERYS ---- */
+
 @media screen and (min-width: 550px) and (max-width: 999px) {
   .bodyError {
     font-size: 30px;

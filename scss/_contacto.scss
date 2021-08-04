@@ -1,45 +1,7 @@
-.contacto__informacion {
-  @include flex(flex, row, center, center, wrap);
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
-    url(../imagenes/contacto2.jpg);
-  min-height: 100vh;
-  width: 100%;
-  padding: 5vh 5vw;
-  .container__info {
-    @include flex(flex, row, center, center, wrap);
-    width: 100%;
-  }
-  .contacto__redes-sociales {
-    @include flex(flex, column, center, center, no-wrap);
-    width: 80vw;
-    height: 65vh;
-    border-radius: 20px 20px 0px 0px;
-    background-color: var(--bg-gray);
-    padding: 1.5rem auto;
-    .informacion__dato {
-      @include flex(flex, column, center, center, no-wrap);
-    }
-    .informacion__logo {
-      width: 40px;
-      padding: 3px;
-    }
-    h3 {
-      font-size: 24px;
-      font-weight: 600;
-      padding-top: 10px;
-      text-align: center;
-    }
-  }
-  .contacto__mapa {
-    width: 80vw;
-    height: 65vh;
-    .mapita {
-      border-radius: 0px 0px 20px 20px;
-      height: 100%;
-      width: 100%;
-    }
-  }
-}
+/* ---- PÁGINA CONTACTO ---- */
+
+/* ---- PÁGINA CONTACTO - FORMULARIO CONTACTO ---- */
+
 .contacto__formulario {
   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
     url(../imagenes/contacto1.jpg);
@@ -111,6 +73,53 @@ textarea {
   font-size: 18px;
   margin: 20px 0;
 }
+
+/* ---- PÁGINA CONTACTO - CUADRO REDES Y MAPA ---- */
+
+.contacto__informacion {
+  @include flex(flex, row, center, center, wrap);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url(../imagenes/contacto2.jpg);
+  min-height: 100vh;
+  width: 100%;
+  padding: 5vh 5vw;
+  .container__info {
+    @include flex(flex, row, center, center, wrap);
+    width: 100%;
+  }
+  .contacto__redes-sociales {
+    @include flex(flex, column, center, center, no-wrap);
+    width: 80vw;
+    height: 65vh;
+    border-radius: 20px 20px 0px 0px;
+    background-color: var(--bg-gray);
+    padding: 1.5rem auto;
+    .informacion__dato {
+      @include flex(flex, column, center, center, no-wrap);
+    }
+    .informacion__logo {
+      width: 40px;
+      padding: 3px;
+    }
+    h3 {
+      font-size: 24px;
+      font-weight: 600;
+      padding-top: 10px;
+      text-align: center;
+    }
+  }
+  .contacto__mapa {
+    width: 80vw;
+    height: 65vh;
+    .mapita {
+      border-radius: 0px 0px 20px 20px;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+/* ---- PÁGINA CONTACTO - MEDIA QUERYS ---- */
 
 @media screen and (min-width: 769px) and (max-width: 1000px) {
   .contacto__formulario {

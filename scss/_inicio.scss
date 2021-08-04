@@ -1,3 +1,5 @@
+/* ---- PÁGINA INICIO ---- */
+
 .inicio {
   @include flex(flex, column, center, center, no-wrap);
   height: 80vh;
@@ -11,6 +13,9 @@
   min-width: 30vw;
   max-height: 58vh;
 }
+
+/* ---- PÁGINA INICIO - MEDIA QUERYS ---- */
+
 @media screen and (min-width: 398px) and (max-width: 768px) {
   .inicio__parrafo {
     font-size: 1.3em;
