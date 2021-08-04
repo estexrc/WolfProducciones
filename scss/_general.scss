@@ -38,12 +38,14 @@ body,
   font-size: 22px;
   position: relative;
 }
-.contenedor-boton-carusel {
-  .contenedor-boton-carusel__anchor {
-    text-decoration: none;
-    color: var(--white-color);
-  }
+
+.contenedor-boton-carusel__anchor {
+  text-decoration: none;
+  color: var(
+    --white-color
+  ) !important; /* Se utiliza important ya que dicho estilo no se aplica aún probando la anidación */
 }
+
 .navbar__botones__whatsapp {
   border: none;
   border-radius: 50px;

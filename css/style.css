@@ -12256,9 +12256,10 @@ body, .contenedor__item3, .contenedor__item2, .contenedor__item1,
   position: relative;
 }
 
-.contenedor-boton-carusel__boton .contenedor-boton-carusel__anchor {
+.contenedor-boton-carusel__anchor {
   text-decoration: none;
-  color: var(--white-color);
+  color: var(--white-color) !important;
+  /* Se utiliza important ya que dicho estilo no se aplica aún probando la anidación */
 }
 
 .navbar__botones__whatsapp {
