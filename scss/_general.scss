@@ -38,9 +38,11 @@ body,
   font-size: 22px;
   position: relative;
 }
-.contenedor-boton-carusel__anchor {
-  text-decoration: none;
-  color: var(--white-color);
+.contenedor-boton-carusel__boton {
+  .contenedor-boton-carusel__anchor {
+    text-decoration: none;
+    color: var(--white-color);
+  }
 }
 .navbar__botones__whatsapp {
   border: none;

@@ -12256,7 +12256,7 @@ body, .contenedor__item3, .contenedor__item2, .contenedor__item1,
   position: relative;
 }
 
-.contenedor-boton-carusel__anchor {
+.contenedor-boton-carusel__boton .contenedor-boton-carusel__anchor {
   text-decoration: none;
   color: var(--white-color);
 }
