@@ -6,7 +6,7 @@ List of technologies used whitin the project are:
 
 - HTML5,
 - CSS3,
-- BOOTSTRAP CDN,
+- BOOTSTRAP NPM,
 - SASS.
 
 If you are interested in collaboration with my project feel free to do it! but I only ask one thing:
