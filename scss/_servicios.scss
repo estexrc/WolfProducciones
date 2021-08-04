@@ -1,0 +1,93 @@
+.servicios {
+  min-height: 90vh;
+  width: 100%;
+  padding-bottom: 5vh;
+  display: grid;
+}
+.container__servicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 20px;
+  grid-gap: 40px;
+}
+.servicios__caja {
+  background-color: var(--bg-gray);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba (0, 0, 0, 0.18);
+}
+.servicios__titulo {
+  @include titulo(30px, center, 600, var(--white-color));
+  padding: 7px;
+  border-radius: 20px 20px 0 0;
+  background-color: var(--bg-gray);
+}
+.servicios__descripcion {
+  @include titulo(20px, center, 500, var(--white-color));
+  margin: 30px 10px;
+}
+@media screen and (min-width: 767px) and (max-width: 869px) {
+  .servicios {
+    min-height: 80vh;
+  }
+  .container__servicios {
+    grid-template-rows: minmax(200px, 400px);
+  }
+  .servicios__descripcion {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width: 870px) and (max-width: 949px) {
+  .container__servicios {
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+  }
+  .servicios__descripcion {
+    font-size: 1.7rem;
+  }
+}
+@media screen and (min-width: 950px) and (max-width: 1200px) {
+  .servicios {
+    min-height: 79.1vh;
+  }
+  .container__servicios {
+    padding-bottom: 0;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+  }
+  .servicios__descripcion {
+    font-size: 1.7rem;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .servicios {
+    padding-top: 1vh;
+  }
+  .container__servicios {
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+  }
+  .servicios__descripcion {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (min-width: 1401px) and (max-width: 1599px) {
+  .servicios {
+    padding-top: 1vh;
+    margin-bottom: 2vh;
+  }
+  .container__servicios {
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+  }
+  .servicios__descripcion {
+    font-size: 2.1rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .servicios {
+    padding-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  .container__servicios {
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+  }
+  .servicios__descripcion {
+    font-size: 2.1rem;
+  }
+}

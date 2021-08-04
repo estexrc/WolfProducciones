@@ -1,0 +1,31 @@
+footer {
+  height: 13vh;
+  background-color: var(--bg-gray);
+  @include flex(flex, column, center, center, no-wrap);
+}
+.footer__redes-img {
+  width: 2.5rem;
+  padding: 0 5px;
+}
+.footer__derechos {
+  margin-top: 5px;
+  p {
+    margin-bottom: 0;
+    @include titulo(1rem, center, 600, auto);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 869px) {
+  .footer__redes-img {
+    width: 2.7rem;
+  }
+}
+@media screen and (min-width: 870px) and (max-width: 999px) {
+  .footer__redes-img {
+    width: 2.7rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .footer__redes-img {
+    width: 3rem;
+  }
+}

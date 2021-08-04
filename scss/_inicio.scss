@@ -1,0 +1,33 @@
+.inicio {
+  @include flex(flex, column, center, center, no-wrap);
+  height: 80vh;
+}
+.inicio__parrafo {
+  @include titulo(1.3em, center, 800, #000);
+  text-shadow: #fff 0.5px 0.5px;
+  margin-top: 3vh;
+}
+.inicio__imagen {
+  min-width: 30vw;
+  max-height: 58vh;
+}
+@media screen and (min-width: 398px) and (max-width: 768px) {
+  .inicio__parrafo {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 981px) {
+  .inicio__parrafo {
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 982px) and (max-width: 1440px) {
+  .inicio__parrafo {
+    font-size: 2.3em;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .inicio__parrafo {
+    font-size: 2.5em;
+  }
+}

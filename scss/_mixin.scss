@@ -1,0 +1,33 @@
+@mixin titulo($font-size, $text-align, $font-weight, $color) {
+  font-size: $font-size;
+  text-align: $text-align;
+  font-weight: $font-weight;
+  color: $color;
+}
+@mixin flex($display, $flex-direction, $justify-content, $align-items, $wrap) {
+  display: $display;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  flex-wrap: $wrap;
+}
+@mixin boton(
+  $border,
+  $border-radius,
+  $background-color,
+  $color,
+  $font-weight,
+  $font-size
+) {
+  border: $border;
+  border-radius: $border-radius;
+  background-color: $background-color;
+  color: $color;
+  font-weight: $font-weight;
+  font-size: $font-size;
+}
+@mixin fondo($bg-size, $bg-pos, $bg-rep) {
+  background-size: $bg-size;
+  background-position: $bg-pos;
+  background-repeat: $bg-rep;
+}

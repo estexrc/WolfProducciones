@@ -1,0 +1,14 @@
+@import "mixin";
+@import "navbar";
+@import "variables.scss";
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "galeria";
+@import "servicios";
+@import "nosotros";
+@import "contacto";
+@import "general";
+@import "inicio";
+@import "pagina404";
+@import "footer";
